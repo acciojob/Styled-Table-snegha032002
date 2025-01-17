@@ -4,11 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Covid-19 Statistic</title>
+	 <style>
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #e2f7e1;
+        }
+        caption {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+    </style>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- add table here -->
+
+	<table>
+    <caption>Covid-19 Statistics</caption>
+    <thead>
+        <tr>
+            <th>Country</th>
+            <th>Total Cases</th>
+            <th>Deaths</th>
+            <th>Recovered</th>
+            <th>Active Cases</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>USA</td>
+            <td>33,000,000</td>
+            <td>600,000</td>
+            <td>32,000,000</td>
+            <td>400,000</td>
+        </tr>
+        <tr>
+            <td>India</td>
+            <td>30,000,000</td>
+            <td>400,000</td>
+            <td>29,500,000</td>
+            <td>100,000</td>
+        </tr>
+        <tr>
+            <td>Brazil</td>
+            <td>20,000,000</td>
+            <td>550,000</td>
+            <td>19,000,000</td>
+            <td>450,000</td>
+        </tr>
+        <tr>
+            <td>Russia</td>
+            <td>10,000,000</td>
+            <td>300,000</td>
+            <td>9,500,000</td>
+            <td>200,000</td>
+        </tr>
+    </tbody>
+</table>
+
 
         
 </body>
